@@ -2,12 +2,12 @@
 DO NOT USE PERCENTAGES IN TEXTS AND IMAGES : No responsiveness  */
 @font-face {
 	font-family: 'Morbodoni';
-	src:url(../fonts.Morbodoni.ttf);
+	src:url(../fonts.morbodoni.ttf);
 }
 
 @font-face{
 	font-family: 'Futura';
-	src:url(../fonts.Futura.ttc);
+	src:url(../fonts.futura.ttc);
 }
 
 body {
