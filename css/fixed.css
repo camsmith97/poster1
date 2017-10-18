@@ -1,0 +1,479 @@
+/* You may set the width and height of container/section elements in percentages. 
+DO NOT USE PERCENTAGES IN TEXTS AND IMAGES : No responsiveness  */
+@font-face {
+	font-family: 'Morbodoni';
+	src:url(../fonts.Morbodoni.ttf);
+}
+
+@font-face{
+	font-family: 'Futura';
+	src:url(../fonts.Futura.ttc);
+}
+
+body {
+	background: #fff0cb;
+}
+
+#container {
+	width: 1100px;
+	height: 2100px;
+
+	position: relative;
+	left: 50%;
+	margin-left: -550px;
+}
+
+.section {
+	width: 100%;
+	height: 700px;
+}
+
+#first {
+	height:900px;
+}
+.box {
+	background-color:#fff0cb;
+	height:20px;
+	width:300px;
+}
+@-webkit-keyframes box1_move {
+	0%	{margin-left: 548px;}
+	100%	{margin-left: 848px;}
+}
+
+#box1 {
+	position:absolute;
+	top:275px;
+	margin-left: 548px;
+	-webkit-animation: box1_move 3s infinite alternate;
+}
+
+@-webkit-keyframes box2_move {
+	0%	{margin-left: 268px;}
+	100%	{margin-left: 568px;}
+}
+#box2 {
+	position:absolute;
+	top: 470px;
+	margin-left:268px;
+	-webkit-animation: box2_move 3s infinite alternate;
+	z-index:2;
+}
+
+.squiggle {
+	height:11px;
+	width:293px;
+}
+
+#squiggle1 {
+	position:absolute;
+	top: 280px;
+	margin-left: 550px;
+}
+
+#squiggle2 {
+	position:absolute;
+	top: 475px;
+	margin-left: 270px;
+}
+
+#faces {
+	position:absolute;
+	top: 310px;
+	margin-left:270px;
+}
+#military {
+	position:absolute;
+	top: 415px;
+	margin-left:780px;
+}
+
+.intro {
+	font-family: 'Futura';
+	font-size: 22px;
+	color: #132d19;
+}
+
+#intro2 {
+	font-family: 'Morbodoni';
+	font-size:65px;
+	color: #132d19;
+	position: absolute;
+	top:350px;
+	margin-left:225px;
+}
+
+#redbox {
+	width: 700px;
+	height: 50px;
+	background-color: #ef3835;
+	position:absolute;
+	top:375px;
+	margin-left:215px;
+	z-index:-1;
+}
+
+/* end of section one!!! */
+
+#second {
+	background-color: #132d19;
+	width:450px;
+	margin-left: 400px;
+}
+.whitebar {
+	height: 5px;
+	width: 60px;
+	background-color: white;
+	position:absolute;
+	top: 950px;
+	margin-left: 55px;
+}
+
+#cadenbar {
+	position:absolute;
+	top: 950px;
+	margin-left: 55px;
+}
+
+.name {
+	font-family: 'Morbodoni';
+	color:#ef3835;
+	font-size: 40px;
+}
+#cadendavis {
+	position:relative;
+	top: 70px;
+	margin-left: 50px;
+	z-index:2;
+}
+
+#cadendavis1 {
+	position:relative;
+	top: 70px;
+	margin-left: 50px;
+	opacity: 0;
+	z-index:2;
+	-webkit-transition: 4000s;
+
+
+}
+#cadendavis1:hover {
+	opacity:1;
+	-webkit-transition: .1s;
+}
+
+#cadenpic {
+	position:absolute;
+	top: 950px;
+	margin-left: 275px;
+	height:320px;
+	width:290px;
+}
+
+
+#lines {
+	position:absolute;
+	top: 970px;
+	margin-left: 480px;
+	height: 60px;
+	width:57px;
+}
+
+.gender {
+	font-family: 'Futura';
+	font-size: 20px;
+	color:white;
+	position: relative;
+	top:75px;
+	margin-left:50px;
+}
+.quotation {
+	font-family: 'Morbodoni';
+	color:#ef3835;
+	font-size: 100px;
+	z-index:1;
+}
+#cadenquotation {
+	position:absolute;
+	top:1360px;
+	margin-left: 70px;
+
+}
+.quote {
+	font-family: 'Futura';
+	font-size: 16px;
+	color:white;
+	line-height: 130%;
+	padding-left:80px;
+	padding-right:60px;
+}
+
+#cadenquote {
+	position: relative;
+	top: 220px;
+	z-index:2;
+}
+/* END OF SECOND SECTION */
+
+#third {
+	background-color: #132d19;
+	width:450px;
+	margin-left: 200px;
+	margin-top: 200px;
+}
+
+#karabar {
+	position:absolute;
+	top:1850px;
+	margin-left:340px;
+}
+
+.kara {
+	text-align:right;
+	font-family: 'Morbodoni';
+	color:#ef3835;
+	font-size: 40px;
+	position: relative;
+	top: 70px;
+	margin-right: 50px;
+	z-index: 2;
+}
+
+#kara {
+	text-align:right;
+	margin-right: 50px;
+	z-index: 2;
+}
+
+#karazajac1 {
+	position:relative;
+	top: 70px;
+	margin-left: 50px;
+	opacity: 0;
+	z-index:2;
+	-webkit-transition: 4000s;
+
+
+}
+#karazajac1:hover {
+	opacity:1;
+	-webkit-transition: .1s;
+}
+#karapic {
+	height: 335px;
+	width: 337px;
+	position: absolute;
+	top: 1850px;
+	margin-left: -100px;
+	z-index: 1;
+}
+
+#lines2 {
+	position:absolute;
+	height: 60px;
+	width:57px;
+	margin-left: -25px;
+	top:1825px;
+	z-index:3;
+
+}
+#karaquotation {
+	text-align: right;
+	position:relative;
+	margin-right: 40px;
+	top: 190px;
+}
+
+#karaquote {
+	position: relative;
+	top: 110px;
+	z-index: 2;
+	text-align: right;
+
+}
+/* END OF THIRD SECTION*/
+
+#fourth {
+	background-color: #132d19;
+	width:450px;
+	margin-left: 400px;
+	margin-top: 200px;
+}
+
+#nataliebar {
+	position: relative;
+	margin-left: 55px;
+	top: 50px;
+}
+.natalie {
+	font-family: 'Morbodoni';
+	color:#ef3835;
+	font-size: 35px;
+	position:relative;
+	top: 70px;
+	margin-left: 50px;
+	z-index:2;
+}
+#nataliepic {
+	position:absolute;
+	top:  2760px;
+	margin-left: 225px;
+	height: 326px;
+	width:373.3333px;
+}
+
+#natalierose1 {
+	position:relative;
+	top: 70px;
+	margin-left: 50px;
+	opacity: 0;
+	z-index:2;
+	-webkit-transition: 4000s;
+}
+
+#lines1 {
+	position:relative;
+	height: 60px;
+	width:57px;
+	margin-left: 430px;
+	top:-150px;
+}
+
+#natalierose1:hover {
+	opacity:1;
+	-webkit-transition: .1s;
+}
+#nataliequote {
+	position: relative;
+	top: 195px;
+	z-index:2;
+}
+#nataliequotation {
+	position: absolute;
+	top: 3140px;
+	margin-left:55px;
+}
+/* END OF FOUR */
+
+#fifth {
+	margin-top:200px;
+}
+
+.section1 {
+	height:670px;
+}
+.redbackground{
+	z-index:-1;
+	width:100%;
+}
+.bigtext {
+	font-family: 'Morbodoni';
+	color:#fff0cb;
+	font-size: 50px;
+}
+.littletext {
+	font-family: 'Futura';
+	font-size: 20px;
+	color:#132d19;
+}
+.bigdiv {
+	position: relative;
+	top:-700px;
+}
+#transgendered {
+	position: relative;
+	top:150px;
+	margin-left: 300px;
+}
+#peoplehave {
+	position: relative;
+	top: 130px;
+	margin-left:320px;
+	z-index:1;
+}
+#right {
+	position: relative;
+	top: 115px;
+	margin-left:440px;
+}
+#toserve {
+	position:relative;
+	top:90px;
+	margin-left:600px;
+}
+#transgendered1 {
+	position:relative;
+	top: 200px;
+	margin-left:300px;
+}
+
+#are {
+	position:relative;
+	top:180px;
+	margin-left:320px;
+	z-index:1;
+}
+
+#not {
+	position:relative;
+	top: 170px;
+	margin-left:410px;
+}
+
+#aburden {
+	position:relative;
+	top:140px;
+	margin-left: 500px;
+
+}
+
+#box3 {
+	position: absolute;
+	top:3800px;
+	margin-left:698px;
+	background-color:#ef3835;
+	z-index:3;
+	-webkit-animation: box3_move 3s infinite alternate;
+}
+
+@-webkit-keyframes box3_move {
+	0%	{margin-left: 698px;}
+	100%	{margin-left: 398px;}
+}
+
+@-webkit-keyframes box4_move {
+	0%	{margin-left: 120px;}
+	100%	{margin-left: 420px;}
+}
+
+#box4 {
+	position: absolute;
+	top:4330px;
+	margin-left:120px;
+	background-color:#ef3835;
+	z-index:3;
+	-webkit-animation: box4_move 3s infinite alternate;
+}
+.squiggle2 {
+	height:11px;
+	width:293px;
+}
+#squiggle21 {
+	position: absolute;
+	top:3800px;
+	margin-left: 700px;
+}
+
+#squiggle22 {
+	position: absolute;
+	top: 4330px;
+	margin-left:120px;
+}
+
+.reddiv {
+	background-color: #ef3835;
+	width:60px;
+	height:70px;
+	position: absolute;
+	top:4000px;
+}
